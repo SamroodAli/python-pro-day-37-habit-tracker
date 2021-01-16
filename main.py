@@ -46,10 +46,6 @@ GRAPH_COLOR = "ajisai"
 # Creating graph
 GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{user_name}/graphs"
 
-
-# Graph request header
-
-
 def create_graph():
     """Function to create new graph - run only once for one graph"""
     graph_config = {
